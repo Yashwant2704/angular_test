@@ -1,0 +1,2 @@
+import{Ga as o,Ja as m,Ya as i,Za as a,db as p,fb as s,za as n}from"./chunk-RB47XDAM.js";var c=class t{title=o("Welcome to the home page!");static \u0275fac=function(e){return new(e||t)};static \u0275cmp=m({type:t,selectors:[["app-home"]],decls:3,vars:1,consts:[[1,"container","mt-2"],[1,"mb-3","text-center"]],template:function(e,r){e&1&&(i(0,"div",0)(1,"h2",1),p(2),a()()),e&2&&(n(2),s(" ",r.title(),`
+`))},encapsulation:2})};export{c as HomeComponent};
