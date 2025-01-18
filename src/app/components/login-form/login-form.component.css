@@ -75,7 +75,11 @@
 
 
 body {
+<<<<<<< HEAD
     /* background-image: url("/assets/cool-background.png"); */
+=======
+    background-image: url('assets/cool-background.png');
+>>>>>>> 8fc30958c5a66fa8216e1daa69cf2d7daf1d6542
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
