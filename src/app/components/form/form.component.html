@@ -1,0 +1,28 @@
+<div class="main-container" id="main-container">
+<div class="form-container">
+    <h1 class="text-center form-title">
+        User Registration
+    </h1>
+        <form>
+            <div class="mb-3">
+              <label for="fname" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="fname" name="fname" placeholder="Alex" aria-describedby="emailHelp" [(ngModel)] = "signUpObj.fname">
+            </div>
+            <div class="mb-3">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lname" name="lname" placeholder="Benjamin" [(ngModel)] = "signUpObj.lname">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="alex@example.com" aria-describedby="emailHelp"  [(ngModel)] = "signUpObj.email">
+                <div id="emailHelp" class="form-text" style="color: white;">We'll never share your email with anyone else.</div>
+              </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password" placeholder="8-10 Characters" [(ngModel)] = "signUpObj.password">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="signUpUser()">Register</button>
+            <p routerLink="/login" routerLinkActive="active">Already registered?</p>
+          </form>
+</div>
+</div>
